@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+
+<link rel="stylesheet" href="https:////cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+
+  </head>
+<style>
+
+body {
+  background-image: url("http://res.cloudinary.com/mers/image/upload/v1502142220/sunset-clouds_p4gncs.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  background-color: transparent !important
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+.jumbotron .title {
+  font-family: "Georgia";
+  color: #000000;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.jumbotron .weather {
+  color: #000000;
+}
+
+p.temp-type {
+  padding-top: 10px;
+  cursor: pointer;
+  color: #000000;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+h3 {
+  color: #FFFFFF;
+  margin: 6px;
+  font-size: 20px
+}
+
+@media screen and (max-width:700px) {
+  h3 {
+    font-size: 15px;
+  }
+}
+
+
+</style>
+<body id="body">
+  <div class="container">
+    <div class="jumbotron">
+      <div class="row">
+        <h2 class="text-center title"> Current Weather</h2>
+      </div>
+      <div class="row">
+        <h2 id="weather-location" class="text-center weather">---</h2>
+      </div>
+      <div class="row">
+        <h2 id="weather-current" class="text-center weather">--</h2>
+      </div>
+       <div class="row">
+        <h3 id="weather-high" class="text-center weather">High: --</h3>
+      </div>
+      <div class="row">
+        <h3 id="weather-low" class="text-center weather">Low: --</h3>
+        <div class="row">
+          <p id=temp-type class="text-center temp-type">Fahrenheit</p></div>
+      </div>
+    </div>
+    <div></div>
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+
+
+<script type="text/javascript" src="index.js"></script>
+
+</html>
