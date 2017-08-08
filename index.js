@@ -130,7 +130,7 @@ function setBackground(weatherIcon) {
       document.getElementById("body").style.backgroundImage = 'url("http://scienceblogs.com/startswithabang/files/2013/04/night-sky-stars.jpeg")';
       break;
     case "snow":
-      document.getElementById("body").style.backgroundImage = 'url("http://www.vancitybuzz.com/wp-content/uploads/2015/12/shutterstock_315123593-984x500.jpg")';
+      document.getElementById("body").style.backgroundImage = 'url("http://res.cloudinary.com/mers/image/upload/v1502142220/sunset-clouds_p4gncs.jpg")';
       break;
     default:
       break;
@@ -138,4 +138,3 @@ function setBackground(weatherIcon) {
   }
 
 }
-
