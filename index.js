@@ -113,7 +113,7 @@ function setBackground(weatherIcon) {
   //console.log(weatherIcon);
   switch (weatherIcon) {
     case "clear-day":
-      document.getElementById("body").style.backgroundImage = 'url("http://feelgrafix.com/data_images/out/15/899301-sunny-day.jpg")';
+      document.getElementById("body").style.backgroundImage = 'url("https://theotherhubby.files.wordpress.com/2014/08/giphy1.gif?w=600")';
       break;
     case "clear-night":
       document.getElementById("body").style.backgroundImage = 'url("https://tcklusman.files.wordpress.com/2014/05/tumblr_static_dark-starry-night-sky-226736.jpg")';
