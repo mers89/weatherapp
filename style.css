@@ -1,0 +1,52 @@
+body {
+  background-image: url("http://res.cloudinary.com/mers/image/upload/v1502142220/sunset-clouds_p4gncs.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  background-color: transparent !important
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+.jumbotron .title {
+  font-family: "Georgia";
+  color: #000000;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.jumbotron .weather {
+  color: #000000;
+}
+
+p.temp-type {
+  padding-top: 10px;
+  cursor: pointer;
+  color: #000000;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+h3 {
+  color: #FFFFFF;
+  margin: 6px;
+  font-size: 20px
+}
+
+@media screen and (max-width:700px) {
+  h3 {
+    font-size: 15px;
+  }
+}
