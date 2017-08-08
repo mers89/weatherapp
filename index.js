@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
   getLocation();
 })
@@ -111,32 +112,30 @@ $("#temp-type").on("click", function() {
 function setBackground(weatherIcon) {
   //console.log(weatherIcon);
   switch (weatherIcon) {
-   case "clear-day":
-  $('body').css("background-image", 'url("http://res.cloudinary.com/mers/image/upload/v1502151184/giphy_1_juapbo.webp")');
-      //Set background image
-      break;
-   case "fog":
-       $('body').css("http://res.cloudinary.com/mers/image/upload/v1502160663/fog_qoeevk.gif")');
-      break;
-   case "rain":
-       $('body').css("background-image", 'url("http://res.cloudinary.com/mers/image/upload/v1502157013/rain_zk3rso.webp")');
-      //Set different background image
-      break;
-    case "cloudy":
-      case "partly-cloudy-day":
-       $('body').css("background-image", 'url("http://unsplash.com/photos/KFnu4Y0uNJA/download?force=true")');
+    case "clear-day":
+      document.getElementById("body").style.backgroundImage = 'url("http://feelgrafix.com/data_images/out/15/899301-sunny-day.jpg")';
       break;
     case "clear-night":
-      case "partly-cloudy-night":
-     $('body').css("background-image", 'url("http://res.cloudinary.com/mers/image/upload/v1502160647/night_z9hooy.webp")');
+      document.getElementById("body").style.backgroundImage = 'url("https://tcklusman.files.wordpress.com/2014/05/tumblr_static_dark-starry-night-sky-226736.jpg")';
+      break;
+    case "rain":
+      document.getElementById("body").style.backgroundImage = 'url("http://wearechange.org/wp-content/uploads/2015/03/1_See_It.jpg")';
+      break;
+    case "cloudy":
+      document.getElementById("body").style.backgroundImage = 'url("http://www.tripwire.com/state-of-security/wp-content/uploads/cache//shutterstock_106367810/4261234929.jpg")';
+      break;
+    case "partly-cloudy-day":
+      document.getElementById("body").style.backgroundImage = 'url("http://www.sturdyforcommonthings.com/wp-content/uploads/2013/03/wind_blowing.jpg")';
+      break;
+    case "partly-cloudy-night":
+      document.getElementById("body").style.backgroundImage = 'url("http://scienceblogs.com/startswithabang/files/2013/04/night-sky-stars.jpeg")';
       break;
     case "snow":
-      case "sleet":
-      $('body').css("background-image", 'url("http://res.cloudinary.com/mers/image/upload/v1502157009/snow_zwjmch.gif")');
+      document.getElementById("body").style.backgroundImage = 'url("http://res.cloudinary.com/mers/image/upload/v1502142220/sunset-clouds_p4gncs.jpg")';
       break;
-    case "wind":
-        $('body').css("background-image", 'url("http://res.cloudinary.com/mers/image/upload/v1502157006/windy_lq2ts1.gif")');
+    default:
       break;
+
   }
 
 }
