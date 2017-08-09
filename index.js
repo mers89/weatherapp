@@ -116,7 +116,7 @@ function setBackground(weatherIcon) {
       document.getElementById("body").style.backgroundImage = 'url("https://theotherhubby.files.wordpress.com/2014/08/giphy1.gif?w=600")';
       break;
     case "clear-night":
-      document.getElementById("body").style.backgroundImage = 'url("https://tcklusman.files.wordpress.com/2014/05/tumblr_static_dark-starry-night-sky-226736.jpg")';
+      document.getElementById("body").style.backgroundImage = 'url("https://theotherhubby.files.wordpress.com/2014/08/giphy1.gif?w=600")';
       break;
     case "rain":
       document.getElementById("body").style.backgroundImage = 'url("http://wearechange.org/wp-content/uploads/2015/03/1_See_It.jpg")';
