@@ -8,7 +8,7 @@ function getLocation() {
   $.ajax({
     format: "jsonp",
     dataType: "jsonp",
-    url: "https://ip-api.com/json",
+    url: "http://ip-api.com/json",
     success: function(data) {
       location = (data.lat + "," + data.lon);
       $("#weather-location").html(data.city + ", " + data.region);
