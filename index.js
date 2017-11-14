@@ -112,25 +112,33 @@ function setBackground(weatherIcon) {
   //console.log(weatherIcon);
   switch (weatherIcon) {
     case "clear-day":
-      document.getElementById("body").style.backgroundImage = 'url("http://www.stroudnewsandjournal.co.uk/resources/images/4265824.jpg?display=1&htype=0&type=responsive-gallery")';
+      document.getElementById("body").style.backgroundImage = 'url("https://blakewd.files.wordpress.com/2015/02/sunny-day-wallpaper.jpg")';
       break;
     case "clear-night":
       document.getElementById("body").style.backgroundImage = 'url("https://tcklusman.files.wordpress.com/2014/05/tumblr_static_dark-starry-night-sky-226736.jpg")';
       break;
-    case "rain":
-      document.getElementById("body").style.backgroundImage = 'url("http://wearechange.org/wp-content/uploads/2015/03/1_See_It.jpg")';
+    
+    case "rain":      document.getElementById("body").style.backgroundImage = 'url("https://i.pinimg.com/236x/c5/51/8b/c5518bba57cff098c158d695ecac1a0a--jquery-weather.jpg")';
       break;
+    
+    
     case "cloudy":
-      document.getElementById("body").style.backgroundImage = 'url("http://www.tripwire.com/state-of-security/wp-content/uploads/cache//shutterstock_106367810/4261234929.jpg")';
+      document.getElementById("body").style.backgroundImage = 'url("https://ak6.picdn.net/shutterstock/videos/4438436/thumb/1.jpg")';
       break;
+    
+    
     case "partly-cloudy-day":
       document.getElementById("body").style.backgroundImage = 'url("http://www.sturdyforcommonthings.com/wp-content/uploads/2013/03/wind_blowing.jpg")';
+    
+    
       break;
     case "partly-cloudy-night":
       document.getElementById("body").style.backgroundImage = 'url("http://scienceblogs.com/startswithabang/files/2013/04/night-sky-stars.jpeg")';
       break;
+    
+    
     case "snow":
-      document.getElementById("body").style.backgroundImage = 'url("http://www.vancitybuzz.com/wp-content/uploads/2015/12/shutterstock_315123593-984x500.jpg")';
+      document.getElementById("body").style.backgroundImage = 'url("https://static1.squarespace.com/static/56530521e4b0c307d59bbe97/565305f8e4b0b06e49b0a8f0/580e0970f7e0ab87774012b5/1478019581547/snowstorm.jpg?format=1500w")';
       break;
     default:
       break;
