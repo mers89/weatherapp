@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
   getLocation();
 })
@@ -113,10 +112,10 @@ function setBackground(weatherIcon) {
   //console.log(weatherIcon);
   switch (weatherIcon) {
     case "clear-day":
-      document.getElementById("body").style.backgroundImage = 'url("https://theotherhubby.files.wordpress.com/2014/08/giphy1.gif?w=600")';
+      document.getElementById("body").style.backgroundImage = 'url("http://www.stroudnewsandjournal.co.uk/resources/images/4265824.jpg?display=1&htype=0&type=responsive-gallery")';
       break;
     case "clear-night":
-      document.getElementById("body").style.backgroundImage = 'url("https://theotherhubby.files.wordpress.com/2014/08/giphy1.gif?w=600")';
+      document.getElementById("body").style.backgroundImage = 'url("https://tcklusman.files.wordpress.com/2014/05/tumblr_static_dark-starry-night-sky-226736.jpg")';
       break;
     case "rain":
       document.getElementById("body").style.backgroundImage = 'url("http://wearechange.org/wp-content/uploads/2015/03/1_See_It.jpg")';
@@ -131,7 +130,7 @@ function setBackground(weatherIcon) {
       document.getElementById("body").style.backgroundImage = 'url("http://scienceblogs.com/startswithabang/files/2013/04/night-sky-stars.jpeg")';
       break;
     case "snow":
-      document.getElementById("body").style.backgroundImage = 'url("http://res.cloudinary.com/mers/image/upload/v1502142220/sunset-clouds_p4gncs.jpg")';
+      document.getElementById("body").style.backgroundImage = 'url("http://www.vancitybuzz.com/wp-content/uploads/2015/12/shutterstock_315123593-984x500.jpg")';
       break;
     default:
       break;
